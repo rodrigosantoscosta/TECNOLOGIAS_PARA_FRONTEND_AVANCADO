@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 50px;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.joke {
+  color: var(--color-primary-variant);
+  margin: 30px 0;
+  text-align: center;
+  width: 80%;
+
+}
+
+.image {
+  img{
+    min-width: 250px;
+    max-width: 580px;
+    border-radius: 15px;
+  }
+}
+
+.submit {
+  background-color: var(--color-primary-variant);
+  cursor: pointer;
+  border: 1px solid #fff;
+  width: 350px;
+  color: var(--color-primary);
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 30px;
+}
